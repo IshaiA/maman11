@@ -22,6 +22,8 @@ public class Chess {
         System.out.println("Please enter the number of column");
         int col2 = scan.nextInt();
 
+        int x=0;
+        
         switch (first) {
             case 'b':
                 c1 = "bishop";
